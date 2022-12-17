@@ -1,12 +1,9 @@
-// import logo from './logo.svg';
-// import './App.css';
-
 import { BrowserRouter } from "react-router-dom";
 import Routers from "./routers/Routers";
 
 function App() {
   return (
-    <div>
+    <div className="App">
       <BrowserRouter>
         <Routers />
       </BrowserRouter>
